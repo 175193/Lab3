@@ -107,11 +107,9 @@ def pole_trapeza(a=1, b=1, h=1):
 def iloczyn_ciagu(a=1, b=4, ile=10):
     iloczyn = 1
     for i in range(a, ile+1):
-        print(iloczyn)
         iloczyn *= b
     return iloczyn
 
-print(iloczyn_ciagu())
 # Zad 7
 import math
 def pierwiastek(num):
