@@ -1,5 +1,3 @@
-import math
-
 # # # try:
 # # #     a = int(input("a = "))
 # # #     b = int(input("b = "))
@@ -107,13 +105,13 @@ def pole_trapeza(a=1, b=1, h=1):
 
 # Zad 6
 def iloczyn_ciagu(a=1, b=4, ile=10):
-    ciag = [x * b for x in range(a, ile + 1)]
     iloczyn = 1
-    for i in ciag:
-        iloczyn *= i
+    for i in range(a, ile+1):
+        print(iloczyn)
+        iloczyn *= b
     return iloczyn
 
-
+print(iloczyn_ciagu())
 # Zad 7
 import math
 def pierwiastek(num):
